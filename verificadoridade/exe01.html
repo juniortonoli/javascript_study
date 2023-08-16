@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detector Pessoa</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body onload="carregar()">
+    <header><h1>Teste</h1></header>
+    <section>Ano de Nascimento:<input type="number" id="ano">
+    <p>Sexo: <input type="radio" name="radsex" id="mas" checked> <label for="masc">Masculino</label>
+    <input type="radio" name="radsex" id="fem"> <label for="fem">Feminino</label> <p>
+    <input type="button" value="Verificar" onclick="verificar()">   
+    <div id="resultado"></div>
+    <div id="dados">Prencha os dados acima para ver o Resultado</div></section>
+    <footer>@CursoemVideo</footer>
+    <script src="script.js"></script>
+</body>
+</html>
