@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Calculadora de Diferença de Data e Hora</title>
+<link rel="stylesheet" href="styles.css"> <!-- Link para o arquivo CSS -->
+</head>
+<body>
+
+<div class="container">
+    <h2>Calculadora de Diferença de Data e Hora</h2>
+
+    <div class="input-container">
+        <label for="dataHoraInicio">Digite a data e hora de início:</label>
+        <input type="datetime-local" id="dataHoraInicio">
+    </div>
+
+    <div class="input-container">
+        <label for="dataHoraFim">Digite a data e hora de fim:</label>
+        <input type="datetime-local" id="dataHoraFim">
+    </div>
+
+    <button onclick="calcularDiferenca()">Calcular Diferença</button>
+
+    <p id="resultado"></p>
+</div>
+
+<script src="script.js"></script> <!-- Link para o arquivo JavaScript -->
+</body>
+</html>
