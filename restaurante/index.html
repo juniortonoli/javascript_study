@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delivery de Marmitex</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Delivery de Marmitex</h1>
+        <p>Selecione os itens desejados e faça seu pedido online.</p>
+    </header>
+    <main>
+        <h2>Cardápio</h2>
+        <div class="menu-item">
+            <label for="item1">Marmita 1 - R$ 15,00</label>
+            <input type="number" id="item1" name="item1" min="0" value="0" data-preco="15.00">
+        </div>
+        <div class="menu-item">
+            <label for="item2">Marmita 2 - R$ 18,00</label>
+            <input type="number" id="item2" name="item2" min="0" value="0" data-preco="18.00">
+        </div>
+        <div class="menu-item">
+            <label for="item3">Marmita 3 - R$ 20,00</label>
+            <input type="number" id="item3" name="item3" min="0" value="0" data-preco="20.00">
+        </div>
+        <div id="resumo">
+            <h3>Resumo do Pedido</h3>
+            <ul id="pedido-resumo"></ul>
+            <div id="total">Total: R$ <span id="total-value">0.00</span></div>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 Delivery de Marmitex</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
