@@ -1,0 +1,48 @@
+/* Estilos para a pop-up do carrinho */
+#cartPopup {
+    display: none;
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para os produtos */
+.product {
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    flex-grow: 1;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    min-width: 200px; /* Defina a largura mínima desejada */
+    max-width: calc(33.33% - 10px); /* Defina a largura máxima desejada (33.33% para 3 produtos por linha) */
+}
+
+.product h2 {
+    margin-top: 0;
+}
+
+.product button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.product button:hover {
+    background-color: #0056b3;
+}
+
+/* Estilos para o layout flexível */
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; /* Adicione este estilo para distribuir os produtos uniformemente */
+}
